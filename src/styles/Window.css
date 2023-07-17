@@ -1,0 +1,53 @@
+.Window {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 0 20px #000000;
+  }
+  
+  .video {
+    max-width: 300px;
+    height: 37vh;
+    border-radius: 100px;
+    overflow: hidden;
+    opacity: 0.5;
+    
+    aspect-ratio: 1/1;
+  }
+  
+  /* Media queries for different screen widths height: 39vh;*/
+  @media (min-width: 340px) {
+    .video {
+      max-width: 400px;
+      height: 39vh;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .video {
+      max-width: 400px;
+      height: 45vh;
+    
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .video {
+      max-width: 500px;
+      height: 60vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .video {
+      max-width: 800px;
+      height: 70vh;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .video {
+      max-width: 700px;
+      height: 80vh;
+    }
+  }

@@ -1,0 +1,55 @@
+.FactorLogo-container{
+    position: relative;
+    max-width: 500px;
+    width: 100vw;
+    display: flex;
+    margin: 20px;;
+}
+.FactorLogo{
+    width:30vw;
+    max-width: 300px;
+    position: relative;
+    left:10%;
+}
+.CanadaLogo{
+    max-width: 300px;
+    width: 40vw;
+    position: relative;
+    left:10%;
+}
+
+@media (min-width: 390px) {
+   
+    }
+    @media (min-width: 576px) {
+      
+    }
+    
+    @media (min-width: 768px) {
+     
+      
+    }
+    
+    @media (min-width: 810px) {
+        .FactorLogo{
+            left:0%;
+            max-width: 300px;
+            
+        }
+        .CanadaLogo{
+            max-width: 300px;
+            left:0%;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .FactorLogo{
+            left:7%;
+            max-width: 300px;
+            
+        }
+        .CanadaLogo{
+            max-width: 300px;
+            left:7%;
+        }
+    }

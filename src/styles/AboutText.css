@@ -1,0 +1,12 @@
+.about-text{
+    width: 100%;
+    position: relative;
+    margin: 20px;
+    word-wrap: break-word;
+    text-align: left;
+    
+}
+.about-text-content{
+    font-size: 1 em;
+    word-wrap: break-word;
+}
