@@ -1,10 +1,10 @@
 
 import './App.css'
 import React from 'react';
-import Home from './Pages/Home';
-import Contact from './Pages/Contact';
-import Gallery from './Pages/Gallery';
-import Releases from './Pages/Releases';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
+import Releases from './components/Releases';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Redirector from './components/Redirector';
 

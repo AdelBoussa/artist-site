@@ -1,12 +1,12 @@
 
 
 import React from 'react';
-import Navbar from '../components/Navbar.jsx';
-import MusicPlayer from '../components/MusicPlayer.jsx';
-import ImageGrid from '../components/ImageGrid.jsx';
-import AboutText from '../components/AboutText.jsx';
-import ContactFrom from '../components/ContactForm.jsx';
-import FactorLogo from '../components/FactorLogo.jsx';
+import Navbar from './Navbar.jsx';
+import MusicPlayer from './MusicPlayer.jsx';
+import ImageGrid from './ImageGrid.jsx';
+import AboutText from './AboutText.jsx';
+import ContactFrom from './ContactForm.jsx';
+import FactorLogo from './FactorLogo.jsx';
 
 // Import the images using require
 
@@ -31,7 +31,7 @@ function Contact() {
         <ContactFrom />
         
         <FactorLogo />
-        </div>
+      </div>
     <MusicPlayer />
           
     </>
