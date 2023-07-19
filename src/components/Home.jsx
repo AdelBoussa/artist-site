@@ -1,11 +1,11 @@
 
 
 import React from 'react';
-import Navbar from './Navbar.jsx';
+//import Navbar from './Navbar.jsx';
 import MusicPlayer from './MusicPlayer.jsx';
 import ImageGrid from './ImageGrid.jsx';
 import AboutText from './AboutText';
-import Window from './window.jsx';
+import Window from './Window.jsx';
 import '../styles/Page.css'
 import FactorLogo from './FactorLogo.jsx';
 // Import the images using require
