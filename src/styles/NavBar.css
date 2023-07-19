@@ -1,5 +1,5 @@
 
-
+/*
 .navbar {
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
   .nav-item {
     margin: 0 10px;
   }
-  /*
+
   .nav-link {
     text-decoration: none;
     color: #dfdbdf;
