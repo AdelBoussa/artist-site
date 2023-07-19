@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-//import Navbar from './Navbar.jsx';
+import Navber from './Navber.jsx';
 import MusicPlayer from './MusicPlayer.jsx';
 import ImageGrid from './ImageGrid.jsx';
 import AboutText from './AboutText.jsx';
