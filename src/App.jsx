@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
-import Releases from './components/Releases';
+import Releases from './Pages/Releases';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Redirector from './components/Redirector';
 

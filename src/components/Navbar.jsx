@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/Navbar.css'; 
 import { Link } from 'react-router-dom';
 
-const Navber = () => {
+const Navbar = () => {
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
         <Link to="/home">Home</Link>
@@ -19,8 +19,8 @@ const Navber = () => {
         <Link to="/contact">Contact</Link>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 };
 
-export default Navber;
+export default Navbar;

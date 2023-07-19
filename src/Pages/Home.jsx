@@ -1,17 +1,17 @@
 
 
 import React from 'react';
-import Navber from './Navber.jsx';
+import Navber from './Navbar.jsx';
 import MusicPlayer from './MusicPlayer.jsx';
 import ImageGrid from './ImageGrid.jsx';
-import AboutText from './AboutText.jsx';
-import ContactFrom from './ContactForm.jsx';
+import AboutText from './AboutText';
+import Window from './Window.jsx';
+import '../styles/Page.css'
 import FactorLogo from './FactorLogo.jsx';
-
 // Import the images using require
 
 
-function Contact() {
+function Home() {
   const images = [
     '/images/image1.jpg',
     '/images/image2.jpg',
@@ -25,17 +25,19 @@ function Contact() {
 
   return (
     <>
-      <Navbar/>
-      <div className="Page">
-        
-        <ContactFrom />
-        
+        <Navbar/>
+        <div className="Page">
+        <AboutText />
+        <Window />
+        <ImageGrid images={images} />
         <FactorLogo />
-      </div>
-    <MusicPlayer />
-          
+        </div>
+        <MusicPlayer />
     </>
   )
 }
 
-export default Contact
+export default Home
+
+
+
