@@ -1,13 +1,13 @@
 
 import './App.css'
 import React from 'react';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import Gallery from './components/Gallery';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+import Gallery from './Pages/Gallery';
 import Releases from './Pages/Releases';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Redirector from './components/Redirector';
-
+import Navbar from './components/Navbar';
 
 function App() {
   
@@ -23,9 +23,10 @@ function App() {
             <Route path="/Releases" element={<Releases />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
-          <Redirector />
+          
         </div>
-  
+        <Redirector />
+        <Navbar/>
       </div>
         </BrowserRouter>  
     </>
