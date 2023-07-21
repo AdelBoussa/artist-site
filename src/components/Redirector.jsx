@@ -9,13 +9,13 @@ function Redirector() {
 
   useEffect(() => {
     // Check if the current location is the initial home page
-    const isHomePage = location.pathname === '/home';
-
+    const isHomePage = location.pathname === '/';
+    console.log('Current location:', location.pathname);
     // Perform the redirect after a certain delay only on the initial home page
     if (isHomePage) {
       const redirectDelay = setTimeout(() => {
         setShouldRedirect(true);
-      }, 3000);
+      }, 300);
 
       return () => {
         clearTimeout(redirectDelay);
@@ -26,6 +26,7 @@ function Redirector() {
   useEffect(() => {
     // Redirect to the home page if the flag is set
     if (shouldRedirect) {
+      console.log('Redirecting to /home...');
       navigate('/home');
     }
   }, [navigate, shouldRedirect]);

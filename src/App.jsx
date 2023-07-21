@@ -7,7 +7,7 @@ import Gallery from './Pages/Gallery';
 import Releases from './Pages/Releases';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Redirector from './components/Redirector';
-import Navbar from './components/Navbar';
+
 
 function App() {
   
@@ -26,7 +26,7 @@ function App() {
           
         </div>
         <Redirector />
-        <Navbar/>
+        
       </div>
         </BrowserRouter>  
     </>
